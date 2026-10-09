@@ -1,17 +1,32 @@
 <h1 align="center">
-  <a href="https://usecase-oiseaux-de-mer.onrender.com">Dashboard d’analyse des déplacements et de l’alimentation des oiseaux marin</a>
+  Analyse des déplacements et de l'alimentation des oiseaux marins
 </h1>
 
 <p align="center">
-<img src=https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white>
-<img src=https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white>
-<img src=https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white>
-<img src=https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white>
+  Un tableau de bord interactif pour explorer les déplacements et les comportements alimentaires des oiseaux marins.
+</p>
+
+<p align="center">
+  <a href="https://usecase-oiseaux-de-mer.onrender.com">
+    <img src="https://img.shields.io/badge/🚀_Accéder_à_l'application-0078D4?style=for-the-badge"
+         alt="Accéder à l'application" height="32">
+  </a>
+</p>
+
+<p align="center">
+  <sub>Cliquez sur le bouton pour découvrir l'application interactive</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly">
 </p>
 
 <hr>
 
-Ce projet est un **dashboard interactif développé avec Streamlit** permettant d’explorer les déplacements de goélands bruns suivis par GPS. L’application est hébergée sur **Render** et accessible directement en cliquant sur le lien intégré au titre de ce README. Elle permet d’analyser les trajectoires individuelles, les distances parcourues, les rythmes d’activité horaires, les excursions effectuées hors du nid ainsi que les principales caractéristiques du mouvement.
+Ce projet est un **dashboard (tableau de bord) interactif développé avec Streamlit** permettant d’explorer les déplacements de goélands bruns suivis par GPS. L’application est hébergée sur **Render** et accessible directement en cliquant sur le lien intégré au titre de ce README. Elle permet d’analyser les trajectoires individuelles, les distances parcourues, les rythmes d’activité horaires, les excursions effectuées hors du nid ainsi que les principales caractéristiques du mouvement.
 
 Un second mode détecte des **zones potentielles de recherche alimentaire**. Les positions lentes situées hors de la zone du nid sont regroupées spatialement avec l’algorithme DBSCAN. Une carte de chaleur, des indicateurs de réutilisation des zones et une chronologie des visites complètent cette analyse.
 
